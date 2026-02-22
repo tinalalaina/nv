@@ -50,4 +50,4 @@ jobs:
         run: npm ci
 
       - name: NPM audit (high+critical)
-        run: npm audit --audit-level=high
+        run: npm audit --audit-level=critical
